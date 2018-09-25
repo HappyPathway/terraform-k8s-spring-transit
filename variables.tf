@@ -2,6 +2,14 @@ variable "k8s_endpoint" {
   description = "k8s_endpoint"
 }
 
+variable "k8s_master_auth_username" {
+  description = "k8s_master_auth_username"
+}
+
+variable "k8s_master_auth_password" {
+  description = "k8s_master_auth_username"
+}
+
 variable "k8s_master_auth_client_certificate" {
   description = "k8s_master_auth_client_certificate"
 }

@@ -54,7 +54,7 @@ variable "postgres_instance" {
 
 variable "postgres_role" {
   description = "postgres_role"
-  default = "database/creds/order"
+  default = "order"
 }
 
 variable "spring_docker_container" {
